@@ -432,3 +432,14 @@ footer {
 footer p {
   text-align: center;
 }
+.text-container {
+  text-align: left;
+}
+
+.text-container p {
+  transition: color 0.3s;
+}
+
+.text-container p:hover {
+  color: black; /* You can change this to any color you prefer */
+}
